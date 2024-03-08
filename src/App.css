@@ -1,0 +1,30 @@
+:root{
+    --lightgray:#D9D9D9;
+    --lightwhite:#f0f0f0;
+    --appColor:#3c3f45;
+    --orange:#f48915;
+    --blue:#1580c8;
+    --gray:#9c9c9c;
+    --caloryCard:#656565;
+    --containerColor: rgb(249, 239, 220);
+    --containerColorBlue: rgb(220, 232, 249);
+    --footerColor: rgb(65, 64, 63);
+    /* --containerColor: rgb(251, 246, 237); */
+    --planCard:linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%); 
+    --planCardBlue:linear-gradient(210.41deg, #1b90f0 1.14%, #75c1f7 100.75%); 
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    /* overflow: hidden; */ /* Comment out or remove this line */
+    scroll-behavior: smooth;
+}
+.bg {
+    background-image: url("./assets/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;  /* Fix typo: change 100vm to 100vw */
+    height: 100vh; /* Ensure the background covers the entire viewport */
+}
