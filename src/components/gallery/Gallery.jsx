@@ -19,25 +19,25 @@ const Gallery = () => {
         <div className="imgDiv">
           <img src={firstImg} alt="" className="imgBlock" />
           <div className="img-text">
-            <p className="buttom-left">Bridal</p>
+            <p className="buttom-left">Mobile Repairing</p>
           </div>
         </div>
         <div className="imgDiv">
           <img src={secImg} alt="" className="imgBlock" />
           <div className="img-text">
-            <p className="buttom-left">Hair</p>
+            <p className="buttom-left">Computer Repairing</p>
           </div>
         </div>
         <div className="imgDiv">
           <img src={thirdImg} alt="" className="imgBlock" />
           <div className="img-text">
-            <p className="buttom-left">Image</p>
+            <p className="buttom-left">Laptop Repairing</p>
           </div>
         </div>
         <div className="imgDiv">
           <img src={forthImg} alt="" className="imgBlock" />
           <div className="img-text">
-            <p className="buttom-left">Bridal</p>
+            <p className="buttom-left">Laptop Repairing</p>
           </div>
         </div>
         <div className="imgDiv">
@@ -49,19 +49,19 @@ const Gallery = () => {
         <div className="imgDiv">
           <img src={sixImg} alt="" className="imgBlock" />
           <div className="img-text">
-            <p className="buttom-left">Image</p>
+            <p className="buttom-left">CCTV</p>
           </div>
         </div>
         <div className="imgDiv">
           <img src={seventhImg} alt="" className="imgBlock" />
           <div className="img-text">
-            <p className="buttom-left">Image</p>
+            <p className="buttom-left">Computer Repairing</p>
           </div>
         </div>
         <div className="imgDiv">
           <img src={eigthImg} alt="" className="imgBlock" />
           <div className="img-text">
-            <p className="buttom-left">Image</p>
+            <p className="buttom-left">Mobile Repairing</p>
           </div>
         </div>
       </div>

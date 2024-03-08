@@ -73,16 +73,6 @@ const Header = () => {
           <li>
             <Link
               onClick={() => setMenuOpen(false)}
-              to="pricing"
-              spy={true}
-              smooth={true}
-            >
-              Pricing
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={() => setMenuOpen(false)}
               to="contact"
               spy={true}
               smooth={true}

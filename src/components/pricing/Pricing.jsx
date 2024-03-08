@@ -5,7 +5,6 @@ const Pricing = () => {
   return (
     <div className="pricing-container" id="pricing">
       <div className="pricing-header">
-        <span>Pricing</span>
       </div>
       <div className="pricing">
         <div className="price-card">
