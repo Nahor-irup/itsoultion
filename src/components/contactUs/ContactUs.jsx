@@ -17,7 +17,7 @@ const ContactUs = () => {
       }, (error) => {
           console.log(error.text);
       });
-  };
+  }; 
 
   return (
     <section className="contactUs" id="contact">
